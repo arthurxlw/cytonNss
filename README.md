@@ -18,31 +18,34 @@ You can also try each step manually through the following commands.
 If you are using our toolkit, please kindly cite our paper (to appear).
 
 =====================================================================================
-1) Compilation:
+# 1) Compilation:
 
 make -j8;
 
 =====================================================================================
-2) Training:
+# 2)  Training:
 
-# You may increase the size of neural network for high performance
 cd data
 ../bin/cytonNss --mode train --train train.txt --vocabFile train.vocab.txt --dev dev.txt --saveModel model --hiddenSize 128 --numLayers 2  
 
-=====================================================================================
-3) Tuning:
-
-# You may increase the tuneSteps for high performance
-../bin/cytonNss --mode tune --dev dev.txt --loadModel model/model --output tune  --tuneSteps 100
-
+Note: You may increase the size of neural network for high performance.
 
 =====================================================================================
-4) Test
+# 3) Tuning:
 
-# Please set the thresholds according to the results of tuning
+ ../bin/cytonNss --mode tune --dev dev.txt --loadModel model/model --output tune  --tuneSteps 100
+
+Note: You may increase the tuneSteps for high performance.
+ 
+=====================================================================================
+# 4) Test
+
+
 ../bin/cytonNss --mode apply --input stdin --output stdout --loadModel model/model --thresholds 0.9:0.8:0.7:0.6:0.5:0.4 testInput.txt > testOutput.txt
 
-Format of Input: sessions separated by empty line
+Note: Please set the thresholds according to the results of tuning.
+
+## Format of Input: sessions separated by empty line
 
 are you						<-- a few input words from the 1-st session
 okay              <-- more input words from the 1-st session
@@ -59,7 +62,7 @@ yes               <-- more input words from the 2-nd session
 									<--- empty line, end of the 2-nd session
 
 
-Format of Ouput: one sentence per line, and sessions are separated by empty line
+## Format of Ouput: one sentence per line, and sessions are separated by empty line
 
 are you okay      <--- sentence 0
 i 'm okay         <--- sentence 1
@@ -70,7 +73,7 @@ what is your name <--- sentence 2
 yes               <--- sentence 3
                   <--- empty line, end of the 2-nd session
 =====================================================================================
-USAGE
+# USAGE
 ../bin/cytonNss  --help
 --help	 ()
 --mode	Running mode: train/tune/apply (train)
