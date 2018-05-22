@@ -18,11 +18,11 @@ You can also try each step manually through the following commands.
 If you are using our toolkit, please kindly cite our paper (to appear).
 
 =====================================================================================
+
 # 1) Compilation:
 
 make -j8;
 
-=====================================================================================
 # 2)  Training:
 
 cd data
@@ -30,37 +30,29 @@ cd data
 
 Note: You may increase the size of neural network for high performance.
 
-=====================================================================================
+
 # 3) Tuning:
 
  ../bin/cytonNss --mode tune --dev dev.txt --loadModel model/model --output tune  --tuneSteps 100
 
 Note: You may increase the tuneSteps for high performance.
  
-=====================================================================================
-# 4) Test
 
+# 4) Test
 
 ../bin/cytonNss --mode apply --input stdin --output stdout --loadModel model/model --thresholds 0.9:0.8:0.7:0.6:0.5:0.4 testInput.txt > testOutput.txt
 
 Note: Please set the thresholds according to the results of tuning.
 
-| Left-Aligned  | Center Aligned  | Right Aligned |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
+# Format of Input: 
 
-| Attempt | #1  | #2  |
-| ------- | --- | --- |
-| Seconds | 301 | 283 |
-
-# Format of Input: sessions separated by empty line
+The input file contains sessions separated by empty line.
+For example:
 
 
-are you	  &nbsp;&nbsp; % a few input words from the 1-st session
+ are you	% a few input words from the 1-st session
 
-okay      &nbsp;&nbsp;&nbsp;&nbsp; % more input words from the 1-st session
+ okay           % more input words from the 1-st session
 
 i 'm      &nbsp;&nbsp;&nbsp;        % more input words from the 1-st session
 
