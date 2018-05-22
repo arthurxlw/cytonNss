@@ -28,21 +28,21 @@ make -j8;
 cd data
 ../bin/cytonNss --mode train --train train.txt --vocabFile train.vocab.txt --dev dev.txt --saveModel model --hiddenSize 128 --numLayers 2  
 
-Note: You may increase the size of neural network for high performance.
+Note: you may increase the size of neural network for high performance.
 
 
 # 3) Tuning:
 
  ../bin/cytonNss --mode tune --dev dev.txt --loadModel model/model --output tune  --tuneSteps 100
 
-Note: You may increase the tuneSteps for high performance.
+Note: you may increase the tuneSteps for high performance.
  
 
 # 4) Test
 
 ../bin/cytonNss --mode apply --input stdin --output stdout --loadModel model/model --thresholds 0.9:0.8:0.7:0.6:0.5:0.4 testInput.txt > testOutput.txt
 
-Note: Please set the thresholds according to the results of tuning.
+Note: please set the thresholds according to the results of tuning.
 
 Format of Input: The input file contains sessions separated by empty line.
 For example:
