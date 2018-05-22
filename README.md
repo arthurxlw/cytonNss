@@ -48,9 +48,9 @@ Note: Please set the thresholds according to the results of tuning.
 # Format of Input: sessions separated by empty line
 
 
-are you	          % a few input words from the 1-st session
+are you	  &nbsp;&nbsp; % a few input words from the 1-st session
 
-okay              % more input words from the 1-st session
+okay      &nbsp;&nbsp; % more input words from the 1-st session
 
 i 'm              % more input words from the 1-st session
 
