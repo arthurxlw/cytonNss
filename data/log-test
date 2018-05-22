@@ -1,0 +1,31 @@
+Parameters:
+  mode:	apply
+  saveModel:	
+  loadModel:	model/model
+  vocabSize:	0
+  hiddenSize:	512
+  numLayers:	3
+  learningRate:	1.0
+  learnRateDecay:	0.5
+  dropout:	0.5
+  maxSentLen:	40
+  numFutureWords:	6
+  batchSize:	64
+  vocabFile:	trainFile.vocab
+  train:	trainFile
+  dev:	dev
+  input:	stdin
+  output:	stdout
+  thresholds:	0.60:0.60:0.50:0.50:0.40:0.40
+  scoreTolerance:	0.04
+  tuneSteps:	0
+  factorLatency:	0.01
+  numSents:	10
+loadModelSetting hiddenSize 512 numLayers 3  vocabSize 5001 numFutureWords 6
+weight0 embedding 512*5001
+weight1 lstm 6303744*1
+weight2 linear.w 512*7
+weight3 linear.b 7*1
+totalWeight 8867847
+loadWeights model/model OK
+

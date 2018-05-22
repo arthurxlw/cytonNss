@@ -1,0 +1,85 @@
+[pxl074:data]../bin/cytonNss --mode apply --input stdin --output stdout --loadModel model/model --thresholds 0.90:0.70:0.70:0.50:0.50:0.40 < testInput.txt > testOutput.txt
+Parameters:
+  mode:	apply
+  saveModel:	
+  loadModel:	model/model
+  vocabSize:	0
+  hiddenSize:	512
+  numLayers:	3
+  learningRate:	1.0
+  learnRateDecay:	0.5
+  dropout:	0.5
+  maxSentLen:	40
+  numFutureWords:	6
+  batchSize:	64
+  vocabFile:	trainFile.vocab
+  train:	trainFile
+  dev:	dev
+  input:	stdin
+  output:	stdout
+  thresholds:	0.90:0.70:0.70:0.50:0.50:0.40
+  scoreTolerance:	0.04
+  tuneSteps:	0
+  factorLatency:	0.01
+  numSents:	10
+loadModelSetting hiddenSize 512 numLayers 3  vocabSize 2003 numFutureWords 6
+weight0 embedding 512*2003
+weight1 lstm 6303744*1
+weight2 linear.w 512*7
+weight3 linear.b 7*1
+totalWeight 7332871
+loadWeights model/modelOK
+[pxl074:data]../bin/cytonNss --mode train --train train.txt --vocabFile train.vocab.txt --dev dev.txt --saveModel modelParameters:
+  mode:	train
+  saveModel:	model
+  loadModel:	
+  vocabSize:	0
+  hiddenSize:	512
+  numLayers:	3
+  learningRate:	1.0
+  learnRateDecay:	0.5
+  dropout:	0.5
+  maxSentLen:	40
+  numFutureWords:	6
+  batchSize:	64
+  vocabFile:	train.vocab.txt
+  train:	train.txt
+  dev:	dev.txt
+  input:	
+  output:	
+  thresholds:	0.9:0.8:0.7:0.6:0.5:0.4
+  scoreTolerance:	0.04
+  tuneSteps:	0
+  factorLatency:	0.01
+  numSents:	10
+change vocobSize 0 => 5001
+weight0 embedding 512*5001
+weight1 lstm 6303744*1
+weight2 linear.w 512*7
+weight3 linear.b 7*1
+totalWeight 8867847
+corpus 18760 sents 293 batches .
+corpus 98 sents 1 batches .
+#Epoch Update Time LearningRate, likelihood Train Dev
+#1 294 3.5e+01s 1.00e+00, likelihood -1.670e+00 -1.576e+00 s
+#2 588 7.2e+01s 1.00e+00, likelihood -1.495e+00 -1.152e+00 s
+#3 882 1.1e+02s 1.00e+00, likelihood -1.422e+00 -1.064e+00 s
+#4 1176 1.5e+02s 1.00e+00, likelihood -1.132e+00 -7.472e-01 s
+#5 1470 1.9e+02s 1.00e+00, likelihood -9.642e-01 -7.838e-01 f1 load model_e4_s1176_-0.747
+
+#6 1764 2.2e+02s 5.00e-01, likelihood -6.323e-01 -5.685e-01 s
+#7 2058 2.6e+02s 2.50e-01, likelihood -5.244e-01 -5.178e-01 s
+#8 2352 3.0e+02s 1.25e-01, likelihood -4.872e-01 -4.791e-01 s
+#9 2646 3.4e+02s 6.25e-02, likelihood -4.641e-01 -4.818e-01 f1 load model_e8_s2352_-0.479
+
+#10 2940 3.7e+02s 3.12e-02, likelihood -4.632e-01 -4.818e-01 f2 load model_e8_s2352_-0.479
+
+#11 3234 4.1e+02s 1.56e-02, likelihood -4.627e-01 -4.751e-01 s
+#12 3528 4.5e+02s 7.81e-03, likelihood -4.581e-01 -4.748e-01 f1 load model_e11_s3234_-0.475
+
+#13 3822 4.9e+02s 3.91e-03, likelihood -4.581e-01 -4.768e-01 f2 load model_e11_s3234_-0.475
+
+#14 4116 5.2e+02s 1.95e-03, likelihood -4.568e-01 -4.771e-01 f3
+
+bestModel model/model_e11_s3234_-0.475
+

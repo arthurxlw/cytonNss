@@ -1,0 +1,100 @@
+so i was interested in these two rollers and i actually wanted more so i borrowed another mouse from a friend never returned to him and i now had four rollers
+interestingly what i did with these rollers is basically i took them off of these mouses and then put them in one line
+it had some strings and pulleys and some springs
+what i got is basically a gesture interface device that actually acts as a motion-sensing device made for two dollars
+so here whatever movement i do in my physical world is actually replicated inside the digital world just using this small device that i made around eight years back in 2000
+because i was interested in integrating these two worlds i thought of sticky notes
+i thought why can i not connect the normal interface of a physical sticky note to the digital world
+a message written on a sticky note to my mom on paper can come to an sms or maybe a meeting reminder automatically syncs with my digital calendar a to-do list that automatically syncs with you
+but you can also search in the digital world or maybe you can write a query saying what is dr. smith 's address
+and this small system actually prints it out so it actually acts like a paper input-output system just made out of paper
+in another exploration i thought of making a pen that can draw in three dimensions
+so i implemented this pen that can help designers and architects not only think in three dimensions but they can actually draw so that it 's more intuitive to use that way
+then i thought why not make a google map but in the physical world
+rather than typing a keyword to find something i put my objects on top of it
+if i put a boarding pass it will show me where the flight gate is
+a coffee cup will show where you can find more coffee or where you can trash the cup
+so these were some of the earlier explorations i did because the goal was to connect these two worlds seamlessly
+among all these experiments there was one thing in common i was trying to bring a part of the physical world to the digital world
+i was taking some part of the objects or any of the intuitiveness of real life and bringing them to the digital world because the goal was to make our computing interfaces more intuitive
+but then i realized that we humans are not actually interested in computing
+what we are interested in is information
+we want to know about things
+we want to know about dynamic things going around
+so i thought around last year in the beginning of the last year i started thinking why can i not take this approach in the reverse way
+maybe how about i take my digital world and paint the physical world with that digital information
+because pixels are actually right now confined in these rectangular devices that fit in our pockets
+why can i not remove this confine and take that to my everyday objects everyday life so that i don 't need to learn the new language for interacting with those pixels
+so in order to realize this dream i actually thought of putting a big-size projector on my head
+i think that 's why this is called a head-mounted projector isn 't it
+i took it very literally and took my bike helmet put a little cut over there so that the projector actually fits nicely
+so now what i can do i can augment the world around me with this digital information
+but later i realized that i actually wanted to interact with those digital pixels also
+so i put a small camera over there that acts as a digital eye
+later we moved to a much better consumer-oriented pendant version of that that many of you now know as the sixthsense device
+but the most interesting thing about this particular technology is that you can carry your digital world with you wherever you go
+you can start using any surface any wall around you as an interface
+the camera is actually tracking all your gestures
+whatever you 're doing with your hands it 's understanding that gesture
+and actually if you see there are some color markers that in the beginning version we are using with it
+you can start painting on any wall
+you stop by a wall and start painting on that wall
+but we are not only tracking one finger here
+we are giving you the freedom of using all of both of your hands so you can actually use both of your hands to zoom into or zoom out of a map just by pinching all present
+the camera is actually doing just getting all the images is doing the edge recognition and also the color recognition and so many other small algorithms are going on inside
+so technically it 's a little bit complex but it gives you an output which is more intuitive to use in some sense
+but i 'm more excited that you can actually take it outside
+rather than getting your camera out of your pocket you can just do the gesture of taking a photo and it takes a photo for you
+thank you
+and later i can find a wall anywhere and start browsing those photos or maybe ok i want to modify this photo a little bit and send it as an email to a friend
+so we are looking for an era where computing will actually merge with the physical world
+and of course if you don 't have any surface you can start using your palm for simple operations
+here i 'm dialing a phone number just using my hand
+the camera is actually not only understanding your hand movements but interestingly is also able to understand what objects you are holding in your hand
+what we 're doing here is actually for example in this case the book cover is matched with so many thousands or maybe millions of books online and checking out which book it is
+once it has that information it finds out more reviews about that or maybe new york times has a sound overview on that so you can actually hear on a physical book a review as sound
+this was obama 's visit last week to mit
+so i was seeing the live [ video ] of his talk outside on just a newspaper
+your newspaper will show you live weather information rather than having it updated like you have to check your computer in order to do that right
+when i 'm going back i can just use my boarding pass to check how much my flight has been delayed because at that particular time i 'm not feeling like opening my iphone and checking out a particular icon
+and i think this technology will not only change the way yes
+it will change the way we interact with people also not only the physical world
+the fun part is i 'm going to the boston metro and playing a pong game inside the train on the ground right
+and i think the imagination is the only limit of what you can think of when this kind of technology merges with real life
+but many of you argue actually that all of our work is not only about physical objects
+we actually do lots of accounting and paper editing and all those kinds of things what about that
+and many of you are excited about the next generation tablet computers to come out in the market
+so rather than waiting for that i actually made my own just using a piece of paper
+so what i did here is remove the camera all the webcam cameras have a microphone inside the camera
+i removed the microphone from that and then just pinched that like i just made a clip out of the microphone and clipped that to a piece of paper any paper that you found around
+so now the sound of the touch is getting me when exactly i 'm touching the paper
+but the camera is actually tracking where my fingers are moving
+you can of course watch movies
+and i am a wilderness explorer in tribe 54 and you can of course play games
+here the camera is actually understanding how you 're holding the paper and playing a car-racing game
+many of you already must have thought ok you can browse
+yeah of course you can browse to any websites or you can do all sorts of computing on a piece of paper wherever you need it
+so more interestingly i 'm interested in how we can take that in a more dynamic way
+when i come back to my desk i can just pinch that information back to my desktop so i can use my full-size computer
+and why only computers we can just play with papers
+paper world is interesting to play with
+here i 'm taking a part of a document and putting over here a second part from a second place and i 'm actually modifying the information that i have over there
+yeah and i say ok this looks nice let me print it out that thing
+so i now have a print-out of that thing and now the workflow is more intuitive the way we used to do it maybe 20 years back rather than now switching between these two worlds
+so as a last thought i think that integrating information to everyday objects will not only help us to get rid of the digital divide the gap between these two worlds but will also help us in some way to stay human to be more connected to our physical world
+and it will actually help us not end up being machines sitting in front of other machines
+that 's all thank you
+thank you
+so pranav first of all you 're a genius
+this is incredible really
+what are you doing with this is there a company being planned
+or is this research forever or what
+pranav mistry so there are lots of companies actually sponsor companies of media lab interested in taking this ahead in one or another way
+companies like mobile phone operators want to take this in a different way than the ngos in india [ who ] are thinking why can we only have sixth sense
+we should have a fifth sense for missing-sense people who cannot speak
+this technology can be used for them to speak out in a different way with maybe a speaker system
+what are your own plans are you staying at mit or are you going to do something with this
+pm i 'm trying to make this more available to people so that anyone can develop their own sixthsense device because the hardware is actually not that hard to manufacture or hard to make your own
+we will provide all the open source software for them maybe starting next month
+open source wow
+are you going to come back to india with some of this at some point
