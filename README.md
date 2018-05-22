@@ -48,11 +48,11 @@ Note: Please set the thresholds according to the results of tuning.
 # Format of Input: sessions separated by empty line
 
 
-are you		  <-- a few input words from the 1-st session
+are you		  % a few input words from the 1-st session
 
-okay              <-- more input words from the 1-st session
+okay              % more input words from the 1-st session
 
-i 'm              <-- more input words from the 1-st session
+i 'm              % more input words from the 1-st session
 
 okay              <-- more input words from the 1-st session
 
@@ -77,9 +77,12 @@ yes               <-- more input words from the 2-nd session
 
 # Format of Ouput: one sentence per line, and sessions are separated by empty line
 
-are you okay      <--- sentence 0
-i 'm okay         <--- sentence 1
-									<--- empty line, end of the 1-st session
+
+are you okay      % sentence 0
+
+i 'm okay         % sentence 1
+
+		 <--- empty line, end of the 1-st session
 i 'm tired        <--- sentence 0
 how do you do     <--- sentence 1
 what is your name <--- sentence 2
