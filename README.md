@@ -49,16 +49,15 @@ Note: Please set the thresholds according to the results of tuning.
 The input file contains sessions separated by empty line.
 For example:
 
+ 	are you		% a few input words from the 1-st session
 
- are you	% a few input words from the 1-st session
+ 	okay            % more input words from the 1-st session
 
- okay           % more input words from the 1-st session
+	i 'm            % more input words from the 1-st session
 
-i 'm      &nbsp;&nbsp;&nbsp;        % more input words from the 1-st session
+	okay            % more input words from the 1-st session
 
-okay      &nbsp;&nbsp;&nbsp;        % more input words from the 1-st session
-
-           &nbsp;&nbsp;&nbsp;       % empty line, end of the 1-st session
+		        % empty line, end of the 1-st session
 		  
 i 'm              <-- input words from 2-th session
 
