@@ -45,18 +45,28 @@ Note: You may increase the tuneSteps for high performance.
 
 Note: Please set the thresholds according to the results of tuning.
 
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+| Attempt | #1  | #2  |
+| ------- | --- | --- |
+| Seconds | 301 | 283 |
+
 # Format of Input: sessions separated by empty line
 
 
 are you	  &nbsp;&nbsp; % a few input words from the 1-st session
 
-okay      &nbsp;&nbsp; % more input words from the 1-st session
+okay      &nbsp;&nbsp;&nbsp;&nbsp; % more input words from the 1-st session
 
-i 'm              % more input words from the 1-st session
+i 'm      &nbsp;&nbsp;&nbsp;        % more input words from the 1-st session
 
-okay              <-- more input words from the 1-st session
+okay      &nbsp;&nbsp;&nbsp;        % more input words from the 1-st session
 
-                  <--- empty line, end of the 1-st session
+           &nbsp;&nbsp;&nbsp;       % empty line, end of the 1-st session
 		  
 i 'm              <-- input words from 2-th session
 
