@@ -2,6 +2,7 @@
 Cyton Online Neural Sentence Segmentation for Simultaneous Interpretation
 
 This software implments an Online Sentence Segmentation for Simultaneous Interpretation using Multi-Shifted Recurrent Neural Network
+
 !! Note: the newlines of the txt files are in Linux format!!
 
 Xiaolin Wang (xiaolin.wang@nict.go.jp, arthur.xlw@gmail.com)
